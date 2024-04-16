@@ -1,1 +1,1 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports = 'Aplicación de pruebas de software'
