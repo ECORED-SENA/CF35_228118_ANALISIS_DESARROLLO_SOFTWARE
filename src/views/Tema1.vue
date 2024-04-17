@@ -570,100 +570,101 @@
       figure
         img.mx-auto(src="@/assets/curso/temas/41.svg",style="max-width: 1030px;",alt="La figura muestra un flujo de trabajo para la gestión de pruebas en el desarrollo de software, comenzando con inicio y concluyendo con fin. Se inicia con la especificación de casos de prueba que alimenta un plan de pruebas, seguido de planificar calendario de ejecución, que conduce a verificar entorno de pruebas. Luego se procede a ingresar datos de prueba, seguido de evaluar criterios de entrada, que lleva a ejecutar pruebas. Paralelamente, cualquier incidencia reportada retroalimenta el proceso de ingresar datos de prueba. Después de ejecutar las pruebas, se pueden gestionar incidencias que a su vez pueden afectar la ejecución de las pruebas. Finalmente, se genera un informe de pruebas, que completa el ciclo.")
 
-    .fondo-gradiente-3.posicion-1
-      p.mb-5(data-aos="fade-left") El diagrama de actividades mencionado anteriormente detalla el flujo que debe considerarse al momento de ejecutar las pruebas de #[em software]. Por esta razón, a continuación se describen cada una de las actividades implicadas.
+    .fondo-personalizado-6.pos-1
+      .fondo-personalizado-6__contenido
+        p.mb-5(data-aos="fade-left") El diagrama de actividades mencionado anteriormente detalla el flujo que debe considerarse al momento de ejecutar las pruebas de #[em software]. Por esta razón, a continuación se describen cada una de las actividades implicadas.
 
-      .row.justify-content-center(data-aos="fade")
-        .col-lg-4.col-md-6.mb-4
-          .d-flex.w-100.flex-column.h-100
-            .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
-              p.mb-0.text-white.text-center #[b Planificar calendario detallado de ejecución:]
-            .fondo-color-sistema-k.p-3.h-100
-              ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
-                li
-                  i.far.fa-check-circle
-                  span Definir el calendario que especifique la ejecución de los casos de prueba, teniendo en cuenta el plan y los casos de prueba.
-        .col-lg-4.col-md-6.mb-4
-          .d-flex.w-100.flex-column.h-100
-            .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #6D18B9;border-top-left-radius: 8px;border-top-right-radius: 8px;")
-              p.mb-0.text-white.text-center #[b Verificar entorno de pruebas:]
-            .fondo-color-sistema-k.p-3.h-100
-              ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
-                li
-                  i.far.fa-check-circle
-                  span Verificar que el ambiente de pruebas tenga un funcionamiento correcto.
-        .col-lg-4.col-md-6.mb-4
-          .d-flex.w-100.flex-column.h-100
-            .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
-              p.mb-0.text-white.text-center #[b Integrar los datos de pruebas:]
-            .fondo-color-sistema-k.p-3.h-100
-              ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
-                li
-                  i.far.fa-check-circle
-                  span Realizar una recolección de los datos de prueba a utilizar en la ejecución de pruebas.
-        .col-lg-4.col-md-6.mb-4
-          .d-flex.w-100.flex-column.h-100
-            .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #6D18B9;border-top-left-radius: 8px;border-top-right-radius: 8px;")
-              p.mb-0.text-white.text-center #[b Evaluar criterios de entrada:]
-            .fondo-color-sistema-k.p-3.h-100
-              ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
-                li
-                  i.far.fa-check-circle
-                  span Analizar los criterios de entrada contenidos en el plan de pruebas, de tal forma que se pueda verificar la ejecución de las pruebas.
+        .row.justify-content-center(data-aos="fade")
+          .col-lg-4.col-md-6.mb-4
+            .d-flex.w-100.flex-column.h-100
+              .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                p.mb-0.text-white.text-center #[b Planificar calendario detallado de ejecución:]
+              .fondo-color-sistema-k.p-3.h-100
+                ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
+                  li
+                    i.far.fa-check-circle
+                    span Definir el calendario que especifique la ejecución de los casos de prueba, teniendo en cuenta el plan y los casos de prueba.
+          .col-lg-4.col-md-6.mb-4
+            .d-flex.w-100.flex-column.h-100
+              .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #6D18B9;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                p.mb-0.text-white.text-center #[b Verificar entorno de pruebas:]
+              .fondo-color-sistema-k.p-3.h-100
+                ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
+                  li
+                    i.far.fa-check-circle
+                    span Verificar que el ambiente de pruebas tenga un funcionamiento correcto.
+          .col-lg-4.col-md-6.mb-4
+            .d-flex.w-100.flex-column.h-100
+              .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                p.mb-0.text-white.text-center #[b Integrar los datos de pruebas:]
+              .fondo-color-sistema-k.p-3.h-100
+                ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
+                  li
+                    i.far.fa-check-circle
+                    span Realizar una recolección de los datos de prueba a utilizar en la ejecución de pruebas.
+          .col-lg-4.col-md-6.mb-4
+            .d-flex.w-100.flex-column.h-100
+              .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #6D18B9;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                p.mb-0.text-white.text-center #[b Evaluar criterios de entrada:]
+              .fondo-color-sistema-k.p-3.h-100
+                ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
+                  li
+                    i.far.fa-check-circle
+                    span Analizar los criterios de entrada contenidos en el plan de pruebas, de tal forma que se pueda verificar la ejecución de las pruebas.
 
-        .col-lg-4.col-md-6.mb-4
-          .d-flex.w-100.flex-column.h-100
-            .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
-              p.mb-0.text-white.text-center #[b Ejecutar las pruebas:]
-            .fondo-color-sistema-k.p-3.h-100
-              ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
-                li
-                  i.far.fa-check-circle
-                  span Se incluyen las siguientes actividades:
-                li
-                  i.far.fa-check-circle
-                  span Ejecutar casos y #[em script] de prueba.
-                li
-                  i.far.fa-check-circle
-                  span Analizar y registrar los resultados.
+          .col-lg-4.col-md-6.mb-4
+            .d-flex.w-100.flex-column.h-100
+              .p-1.px-5(style="min-height:53px;display:flex;justify-content: center;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                p.mb-0.text-white.text-center #[b Ejecutar las pruebas:]
+              .fondo-color-sistema-k.p-3.h-100
+                ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
+                  li
+                    i.far.fa-check-circle
+                    span Se incluyen las siguientes actividades:
+                  li
+                    i.far.fa-check-circle
+                    span Ejecutar casos y #[em script] de prueba.
+                  li
+                    i.far.fa-check-circle
+                    span Analizar y registrar los resultados.
 
-      Separador
+        Separador
 
-      #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-        h2 1.2 #[em Agile Testing]
+        #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+          h2 1.2 #[em Agile Testing]
 
-      .row.align-items-center.mb-5
-        .col-lg-5(data-aos="fade-right")
-          figure.mb-4.mb-lg-0
-            img.mx-auto(src="@/assets/curso/temas/42.png",style="max-width: 429px;")
-        .col-lg-7(data-aos="fade-left")
-          p.mb-5 Las metodologías ágiles proporcionan un conjunto de directrices y principios diseñados para agilizar y priorizar la entrega de productos sobre la documentación exhaustiva, simplificando los procesos e involucrando al cliente final desde las etapas iniciales del proyecto. Es importante destacar que una metodología ágil se compone de iteraciones o #[em sprints], cada uno de duración relativamente corta, generalmente de dos a cuatro semanas. Al finalizar cada iteración, se disponen de funcionalidades del #[em software] que pueden ser entregadas y utilizadas por el cliente.
-          p.mb-0 Recordando las metodologías ágiles, se puede especificar que las pruebas ágiles (#[em Agile Testing]) son una práctica que se lleva a cabo en cada iteración. Existen dos tipos de planificaciones: la planificación de #[b lanzamiento/entrega], que se refiere a las entregas frecuentes al cliente, es decir, la puesta en producción de nuevas versiones del producto; y la planificación de #[b sprint/iteración], que indica que un proyecto se ejecuta en bloques temporales cortos y fijos. Sin embargo, estas planificaciones pueden coincidir en un mismo momento, es decir, puede haber una sola planificación que incluya actividades tanto de lanzamiento como de #[em sprint], tal como se muestra en la siguiente figura:
+        .row.align-items-center.mb-5
+          .col-lg-5(data-aos="fade-right")
+            figure.mb-4.mb-lg-0
+              img.mx-auto(src="@/assets/curso/temas/42.png",style="max-width: 429px;")
+          .col-lg-7(data-aos="fade-left")
+            p.mb-5 Las metodologías ágiles proporcionan un conjunto de directrices y principios diseñados para agilizar y priorizar la entrega de productos sobre la documentación exhaustiva, simplificando los procesos e involucrando al cliente final desde las etapas iniciales del proyecto. Es importante destacar que una metodología ágil se compone de iteraciones o #[em sprints], cada uno de duración relativamente corta, generalmente de dos a cuatro semanas. Al finalizar cada iteración, se disponen de funcionalidades del #[em software] que pueden ser entregadas y utilizadas por el cliente.
+            p.mb-0 Recordando las metodologías ágiles, se puede especificar que las pruebas ágiles (#[em Agile Testing]) son una práctica que se lleva a cabo en cada iteración. Existen dos tipos de planificaciones: la planificación de #[b lanzamiento/entrega], que se refiere a las entregas frecuentes al cliente, es decir, la puesta en producción de nuevas versiones del producto; y la planificación de #[b sprint/iteración], que indica que un proyecto se ejecuta en bloques temporales cortos y fijos. Sin embargo, estas planificaciones pueden coincidir en un mismo momento, es decir, puede haber una sola planificación que incluya actividades tanto de lanzamiento como de #[em sprint], tal como se muestra en la siguiente figura:
 
-      .row.justify-content-center.mb-5(data-aos="zoom-in-up")
-        .col-lg-10
-          .titulo-sexto.color-acento-contenido
-            p.mb-0 #[b Figura 3.] Actividades #[em Sprints Reléase]
-          .fondo-color-sistema-n.borde-18.p-3.p-md-4.pt-4.pb-4
-            figure
-              img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/43.png",style="max-width: 820px;",alt="La figura muestra un diagrama que representa la estructura de los sprints en un marco de trabajo Agile. Cada sprint está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de Agile Testing, y termina con la fase de Release/Entrega. El diagrama repite esta estructura para Sprint 1, Sprint 2, y así sucesivamente hasta Sprint n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples sprints.")
-              img.mx-auto.d-lg-none(src="@/assets/curso/temas/44.png",style="max-width: 270px;",alt="La figura muestra un diagrama que representa la estructura de los sprints en un marco de trabajo Agile. Cada sprint está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de Agile Testing, y termina con la fase de Release/Entrega. El diagrama repite esta estructura para Sprint 1, Sprint 2, y así sucesivamente hasta Sprint n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples sprints.")
+        .row.justify-content-center.mb-5(data-aos="zoom-in-up")
+          .col-lg-10
+            .titulo-sexto.color-acento-contenido
+              p.mb-0 #[b Figura 3.] Actividades #[em Sprints Reléase]
+            .fondo-color-sistema-n.borde-18.p-3.p-md-4.pt-4.pb-4
+              figure
+                img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/43.png",style="max-width: 820px;",alt="La figura muestra un diagrama que representa la estructura de los sprints en un marco de trabajo Agile. Cada sprint está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de Agile Testing, y termina con la fase de Release/Entrega. El diagrama repite esta estructura para Sprint 1, Sprint 2, y así sucesivamente hasta Sprint n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples sprints.")
+                img.mx-auto.d-lg-none(src="@/assets/curso/temas/44.png",style="max-width: 270px;",alt="La figura muestra un diagrama que representa la estructura de los sprints en un marco de trabajo Agile. Cada sprint está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de Agile Testing, y termina con la fase de Release/Entrega. El diagrama repite esta estructura para Sprint 1, Sprint 2, y así sucesivamente hasta Sprint n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples sprints.")
 
-      .row.align-items-center.mb-5
-        .col-lg-7(data-aos="fade-down")
-          p.mb-4 Por otro lado, es importante considerar que la metodología de desarrollo de #[em software] tradicional, conocida como cascada, emplea diferentes tipos de pruebas de #[em software] que evalúan tanto los requerimientos funcionales como los no funcionales de manera secuencial. Sin embargo, en las metodologías ágiles, y específicamente en las pruebas ágiles, también se contemplan diversos tipos de pruebas. La diferencia radica en que en las metodologías ágiles se utilizan #[em sprints] o iteraciones cortas y hay una interacción continua entre los equipos de desarrollo, diseño y pruebas.
+    .row.align-items-center.mb-5
+      .col-lg-7(data-aos="fade-down")
+        p.mb-4 Por otro lado, es importante considerar que la metodología de desarrollo de #[em software] tradicional, conocida como cascada, emplea diferentes tipos de pruebas de #[em software] que evalúan tanto los requerimientos funcionales como los no funcionales de manera secuencial. Sin embargo, en las metodologías ágiles, y específicamente en las pruebas ágiles, también se contemplan diversos tipos de pruebas. La diferencia radica en que en las metodologías ágiles se utilizan #[em sprints] o iteraciones cortas y hay una interacción continua entre los equipos de desarrollo, diseño y pruebas.
 
-          .fondo-color-sistema-p.borde-13.p-3
-            .row.align-items-center
-              .col-lg-2.col-md-2
-                figure.mb-4.mb-md-0
-                  img.mx-auto(src="@/assets/curso/temas/45.png",style="max-width: 73px;")
-              .col-lg-10.col-md-10
-                p.mb-0 Las pruebas ágiles se basan en principios que se alinean con el desarrollo ágil de #[em software]. Además, existen ciertos cuadrantes que se deben tener en cuenta al momento de planificarlas.
+        .fondo-color-sistema-i.borde-13.p-3
+          .row.align-items-center
+            .col-lg-2.col-md-2
+              figure.mb-4.mb-md-0
+                img.mx-auto(src="@/assets/curso/temas/45.png",style="max-width: 75px;")
+            .col-lg-10.col-md-10
+              p.mb-0.text-white Las pruebas ágiles se basan en principios que se alinean con el desarrollo ágil de #[em software]. Además, existen ciertos cuadrantes que se deben tener en cuenta al momento de planificarlas.
 
-        .col-lg-5(data-aos="fade-up")
-          figure.mb-4.mb-lg-0
-            img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 505px;")
+      .col-lg-5(data-aos="fade-up")
+        figure.mb-4.mb-lg-0
+          img.mx-auto(src="@/assets/curso/temas/46.png",style="max-width: 505px;")
 
     p.pt-5.mb-0(data-aos="fade") A continuación, se describen tanto los principios como los cuadrantes:
 
@@ -679,7 +680,7 @@
 
     .fondo-gradiente-1
       TabsB.color-acento-botones.mb-5(data-aos="flip-up")
-        .p-3.fondo-color-sistema-k(titulo="<h4>Integración continua</h4>")
+        .p-3.fondo-personalizado-7(titulo="<h4>Integración continua</h4>" :icono="require('@/assets/curso/temas/136.png')")
           .row.justify-content-center.mb-5.mt-4
             .col-lg-11
               .row.align-items-center
@@ -689,7 +690,7 @@
                 .col-lg-6.order-last.order-lg-first
                   figure
                     img.mx-auto(src="@/assets/curso/temas/48.png",style="max-width: 400px;")
-        .p-3.fondo-color-sistema-k(titulo="<h4>Entrega continua</h4>")
+        .p-3.fondo-personalizado-7(:icono="require('@/assets/curso/temas/136.png')" titulo="<h4>Entrega continua</h4>")
           .row.justify-content-center.mb-5.mt-4
             .col-lg-11
               .row.align-items-center
@@ -699,7 +700,7 @@
                 .col-lg-6
                   figure
                     img.mx-auto(src="@/assets/curso/temas/49.png",style="max-width: 400px;")
-        .p-3.fondo-color-sistema-k(titulo="<h4>Elaborar menos documentación</h4>")
+        .p-3.fondo-personalizado-7(:icono="require('@/assets/curso/temas/136.png')" titulo="<h4>Elaborar menos documentación</h4>")
           .row.justify-content-center.mb-5.mt-4
             .col-lg-11
               .row.align-items-center
@@ -709,7 +710,7 @@
                 .col-lg-6.order-last.order-lg-first
                   figure
                     img.mx-auto(src="@/assets/curso/temas/50.png",style="max-width: 400px;")
-        .p-3.fondo-color-sistema-k(titulo="<h4>Responder con velocidad a la retroalimentación</h4>")
+        .p-3.fondo-personalizado-7(:icono="require('@/assets/curso/temas/136.png')" titulo="<h4>Responder con velocidad a la retroalimentación</h4>")
           .row.justify-content-center.mb-5.mt-4
             .col-lg-11
               .row.align-items-center
@@ -719,7 +720,7 @@
                 .col-lg-6
                   figure
                     img.mx-auto(src="@/assets/curso/temas/51.png",style="max-width: 400px;")
-        .p-3.fondo-color-sistema-k(titulo="<h4>Proporcionar retroalimentación constante</h4>")
+        .p-3.fondo-personalizado-7(:icono="require('@/assets/curso/temas/136.png')" titulo="<h4>Proporcionar retroalimentación constante</h4>")
           .row.justify-content-center.mb-5.mt-4
             .col-lg-11
               .row.align-items-center
@@ -755,17 +756,11 @@
 
     p.mt-5.mb-4(data-aos="fade") A continuación, se realizará una exploración de los diferentes cuadrantes expuestos:
 
-    .py-4.fondo-float-2(data-aos="flip-up")
-      .cont_2_3.p-3
-        figure.fig-flotante(style="left: 0;top: -140px;max-width:118px;")
-          img(src="@/assets/curso/temas/55.svg",style="max-width:118px;")
-        figure.fig-flotante(style="z-index: 1;right: 10px;top: 10px;max-width:88px;")
-          img(src="@/assets/curso/temas/56.svg",style="max-width:88px;")
-        figure.fig-flotante(style="right: -70px;top: -115px;max-width:173px;")
-          img(src="@/assets/curso/temas/57.svg",style="max-width:173px;")
-        figure.fig-flotante(style="left: 35%;bottom: -160px;max-width:227px;")
-          img(src="@/assets/curso/temas/58.svg",style="max-width:227px;")
-
+    .slider-personalizado-1.py-5.mb-5(data-aos="flip-up")
+      img.imgf-1(src="@/assets/curso/temas/55.png")
+      img.imgf-2(src="@/assets/curso/temas/56.png")
+      img.imgf-3(src="@/assets/curso/temas/57.png")
+      .slider-personalizado-1__contenido.p-3.pe-lg-5.pt-5
         SlyderA(tipo="b")
           .row.justify-content-center
             .col-lg-10
@@ -776,7 +771,7 @@
                   p.mb-0 Son pruebas del Q2 y Q3, pruebas funcionales y pruebas UAT, se enfoca en realizar pruebas manuales y criticando al producto con las pruebas de aceptación.
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/59.svg',style="max-width: 470px;")
           .row.justify-content-center
@@ -788,7 +783,7 @@
                   p.mb-0 Pueden ser automatizadas y utilizando herramientas, incluye el Q1 y Q4.
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/60.svg',style="max-width: 470px;")
           .row.justify-content-center
@@ -800,7 +795,7 @@
                   p.mb-0 Comprenden pruebas automatizadas y manuales del cuadrante Q2 y Q1 donde se realizan pruebas unitarias y de componentes y pruebas funcionales con prototipos y simuladores.
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/61.svg',style="max-width: 300px;")
           .row.justify-content-center
@@ -812,7 +807,7 @@
                   p.mb-0 Estas pruebas pueden tener un carácter positivo, puesto que a partir de ellas se pueden sugerir o realizar mejoras. Cuando se ejecutan estas pruebas, la idea es simular lo más que se pueda un ambiente real en el cual serán ejecutadas, así mismo estas pruebas frecuentemente son realizadas por los usuarios finales como pruebas de aceptación (UAT).
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/62.svg',style="max-width: 300px;")
           .row.justify-content-center
@@ -832,7 +827,7 @@
                       span Pruebas de componente.
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/63.svg',style="max-width: 295px;")
           .row.justify-content-center
@@ -855,7 +850,7 @@
                       span Pruebas de Prototipos y simulaciones.
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/64.svg',style="max-width: 280px;")
           .row.justify-content-center
@@ -881,7 +876,7 @@
                       span Pruebas de aceptación de usuario.
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/65.svg',style="max-width: 345px;")
           .row.justify-content-center
@@ -905,7 +900,7 @@
                       span Pruebas de robustez. 
 
                 .col-lg-6.order-first.order-lg-last
-                  .bg-white.borde-9.p-2.py-5.mb-4.mb-lg-0
+                  .fondo-color-sistema-m.borde-9.p-2.py-5.mb-4.mb-lg-0
                     figure
                       img.mx-auto(src='@/assets/curso/temas/66.svg',style="max-width: 322px;")
 
@@ -913,7 +908,7 @@
     .fondo-gradiente-1.posicion-1
       p.mb-5.pt-5(data-aos="fade") Ahora, se describen algunas recomendaciones para tener en cuenta al momento de trabajar con pruebas de #[em software] ágiles #[em (Agil Testing)].
 
-      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta no-border-radius fondo-color-sistema-k" data-aos="zoom-in-up")
+      AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta no-border-radius fondo-color-sistema-i" data-aos="zoom-in-up")
         .row.contenedor-cuerpo-acordion-a.align-items-center(titulo="Gestión de pruebas por <em>sprint</em>")
           .col-md-6.mb-4.mb-md-0
             ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
@@ -1080,52 +1075,53 @@
           figure.mb-4.mb-lg-0
             img.mx-auto(src="@/assets/curso/temas/74.svg",style="max-width: 610px;",alt="El diagrama representa el flujo de trabajo de ATDD, iniciando con la historia de usuario, pasando por la especificación y automatización de pruebas de aceptación, luego implementando el código con TDD y utilizando el lenguaje de programación. Este proceso es iterativo, indicado por la frase que señala la repetición del ciclo. ATDD, ubicado en el centro, destaca su rol como eje central del proceso.")
 
-      .tarjeta.tarjeta--gris.color-secundario.p-4.mb-5(style="overflow: hidden;")
-        figure.mb-4.mb-lg-0(style="max-width: 110px;position: absolute;left: 0;bottom: 0;z-index: 0;")
-          img.mx-auto(src="@/assets/curso/temas/123.svg")
-        figure.mb-4.mb-lg-0(style="max-width: 126px;position: absolute;right: -60px;top: -60px;z-index: 0;")
-          img.mx-auto(src="@/assets/curso/temas/124.svg")
-        PasosB.color-primario
-          .row.mb-5(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Seleccionar la historia de usuario:
-              p.mb-0 En este punto, se asume que se ha realizado una priorización para determinar cuál es la próxima historia de usuario a abordar.
-          
-            .col-md-6
-              figure
-                img.mx-auto(src="@/assets/curso/temas/122.png",style="max-width: 295px;")
-          .row.mb-5(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Escribir la prueba de aceptación:
-              p.mb-0 En esta etapa, todos los involucrados deben participar de manera colaborativa para definir las pruebas que validen la correcta implementación de la historia.
-          
-            .col-md-6
-              figure
-                img.mx-auto(src="@/assets/curso/temas/125.png",style="max-width: 295px;")
-          .row.mb-5(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Implementar la historia de usuario - Automatizar las pruebas:
-              p.mb-0 Existen varias maneras de llevar a cabo este paso, pero lo crucial es que, a partir de las pruebas de aceptación definidas anteriormente, se obtengan pruebas ejecutables. Estas pruebas permitirán verificar el progreso de la implementación de la funcionalidad.
-          
-            .col-md-6
-              figure
-                img.mx-auto(src="@/assets/curso/temas/126.png",style="max-width: 295px;")
-          .row.mb-5(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Implementar el código:
-              p.mb-0 Aunque hay diversas formas de realizar este paso, una de ellas es mediante el uso de TDD (Desarrollo Guiado por Pruebas), que asegura que el código cumpla con los requisitos establecidos en las pruebas de aceptación.
-          
-            .col-md-6
-              figure
-                img.mx-auto(src="@/assets/curso/temas/127.png",style="max-width: 295px;")
-          .row.mb-5(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Realizar pequeños cambios/Refactorización:
-              p.mb-0 Este paso es fundamental tanto en ATDD como en TDD. Se trata de una práctica iterativa que concluye cuando los requerimientos del cliente han sido plenamente satisfechos, optimizando y limpiando el código sin alterar su funcionalidad.
-          
-            .col-md-6
-              figure
-                img.mx-auto(src="@/assets/curso/temas/128.png",style="max-width: 295px;")
+
+      .fondo-personalizado-8.mb-4
+        img.imgf-1(src="@/assets/curso/temas/55.png")
+        img.imgf-2(src="@/assets/curso/temas/56.png")
+        img.imgf-3(src="@/assets/curso/temas/123.png")
+        .fondo-personalizado-8__contenido.p-4.pb-5
+          PasosB.pasos-personalizado-1
+            .row.mb-5(titulo="")
+              .col-md-6.mb-4.mb-md-0.ps-lg-5
+                h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Seleccionar la historia de usuario:
+                p.mb-0.text-white En este punto, se asume que se ha realizado una priorización para determinar cuál es la próxima historia de usuario a abordar.
+            
+              .col-md-6
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/122.png",style="max-width: 295px;")
+            .row.mb-5(titulo="")
+              .col-md-6.mb-4.mb-md-0.ps-lg-5
+                h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Escribir la prueba de aceptación:
+                p.mb-0.text-white En esta etapa, todos los involucrados deben participar de manera colaborativa para definir las pruebas que validen la correcta implementación de la historia.
+            
+              .col-md-6
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/125.png",style="max-width: 295px;")
+            .row.mb-5(titulo="")
+              .col-md-6.mb-4.mb-md-0.ps-lg-5
+                h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Implementar la historia de usuario - Automatizar las pruebas:
+                p.mb-0.text-white Existen varias maneras de llevar a cabo este paso, pero lo crucial es que, a partir de las pruebas de aceptación definidas anteriormente, se obtengan pruebas ejecutables. Estas pruebas permitirán verificar el progreso de la implementación de la funcionalidad.
+            
+              .col-md-6
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/126.png",style="max-width: 295px;")
+            .row.mb-5(titulo="")
+              .col-md-6.mb-4.mb-md-0.ps-lg-5
+                h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Implementar el código:
+                p.mb-0.text-white Aunque hay diversas formas de realizar este paso, una de ellas es mediante el uso de TDD (Desarrollo Guiado por Pruebas), que asegura que el código cumpla con los requisitos establecidos en las pruebas de aceptación.
+            
+              .col-md-6
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/127.png",style="max-width: 295px;")
+            .row.mb-5(titulo="")
+              .col-md-6.mb-4.mb-md-0.ps-lg-5
+                h3.mb-4.d-inline-block.bg-white.p-1(style="color: #273A89;") Realizar pequeños cambios/Refactorización:
+                p.mb-0.text-white Este paso es fundamental tanto en ATDD como en TDD. Se trata de una práctica iterativa que concluye cuando los requerimientos del cliente han sido plenamente satisfechos, optimizando y limpiando el código sin alterar su funcionalidad.
+            
+              .col-md-6
+                figure
+                  img.mx-auto(src="@/assets/curso/temas/128.png",style="max-width: 295px;")
 
     
     .fondo-gradiente-1
@@ -1143,7 +1139,7 @@
         p.mb-0 #[b Figura 7.] ATDD
 
       .pb-5
-        .fondo-color-sistema-g.p-4.borde-24
+        .p-4.borde-24
           figure
             img.mx-auto(src="@/assets/curso/temas/76.svg",style="max-width: 1008px;",alt="La figura muestra un diagrama de flujo para ATDD, que inicia con el desglose de requisitos en historias, su priorización y aceptación colaborativa. Luego, se establecen y automatizan los criterios de aceptación en tests, continuando con la automatización de tests unitarios y de integración. El ciclo concluye con la verificación de los tests de aceptación para producir una versión entregable del producto, reflejando un proceso iterativo y colaborativo en el desarrollo de software.")
 
@@ -1164,7 +1160,7 @@
       .fondo-gradiente-contenido
         .row.mb-5
           .col-lg-6.mb-4.mb-lg-0
-            .fondo-gradiente-5.p-4
+            .fondo-personalizado-9.p-4
               figure
                 img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 525px;",alt="El diagrama describe la interacción entre BDD y TDD en el desarrollo de software, donde se comienza redactando una especificación funcional que no se cumple, seguido de la creación de un test que falla en TDD. Después, se escribe el código necesario para pasar el test y se procede a la refactorización del mismo. Este ciclo iterativo enfatiza la importancia de la definición de comportamientos y pruebas previas a la implementación efectiva del código.")
           .col-lg-6
@@ -1199,7 +1195,7 @@
         .row.justify-content-center.mb-5
             .col-lg-4.col-md-6.mb-4(data-aos="fade-right")
               .d-flex.w-100.flex-column.h-100
-                .p-1.px-4(style="min-height:53px;display:flex;justify-content: start;align-items:center;background-color: #4D828B;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                .p-1.px-4(style="min-height:53px;display:flex;justify-content: start;align-items:center;background-color: #3A1D71;border-top-left-radius: 8px;border-top-right-radius: 8px;")
                   p.mb-0.text-white.text-left #[b Ejemplo:]
                 .fondo-color-sistema-k.p-3.h-100
                   ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
@@ -1208,7 +1204,7 @@
                       span Inicialmente, se define la característica o funcionalidad que se desea implementar, basándose en una historia de usuario.
             .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
               .d-flex.w-100.flex-column.h-100
-                .p-1.px-4(style="min-height:53px;display:flex;justify-content: start;align-items:center;background-color: #C58239;border-top-left-radius: 8px;border-top-right-radius: 8px;")
+                .p-1.px-4(style="min-height:53px;display:flex;justify-content: start;align-items:center;background-color: #7914D3;border-top-left-radius: 8px;border-top-right-radius: 8px;")
                   p.mb-0.text-white.text-center #[b Característica:]
                 .fondo-color-sistema-k.p-3.h-100
                   ul.lista-ul.lista-tipo-1.fa-ul.mb-0.ms-0
@@ -1218,20 +1214,13 @@
 
         p.mb-5 A continuación, se presentan dos escenarios derivados de la historia de usuario especificada
         
-        .pb-5
-          .slyder-a-personalizado-1.px-3.pb-3.pt-5(data-aos="zoom-in-up")
-            .slyder-a-personalizado-1__fondo
-              figure.fig-flotante(style="left: 0;top: -140px;max-width:118px;")
-                img(src="@/assets/curso/temas/55.svg",style="max-width:118px;")
-              figure.fig-flotante(style="z-index: 1;right: 10px;top: 10px;max-width:88px;")
-                img(src="@/assets/curso/temas/56.svg",style="max-width:87px;")
-              figure.fig-flotante(style="right: -70px;top: -115px;max-width:173px;")
-                img(src="@/assets/curso/temas/57.svg",style="max-width:173px;")
-              figure.fig-flotante(style="left: 35%;bottom: -160px;max-width:227px;")
-                img(src="@/assets/curso/temas/58.svg",style="max-width:227px;")
-
+        .slider-personalizado-1.py-5.mb-5(data-aos="flip-up")
+          img.imgf-1(src="@/assets/curso/temas/55.png")
+          img.imgf-2(src="@/assets/curso/temas/56.png")
+          img.imgf-3(src="@/assets/curso/temas/57.png")
+          .slider-personalizado-1__contenido.p-3.pe-lg-5.pt-5
             SlyderA(tipo="b")
-              .row.justify-content-center.align-items-start
+              .row.justify-content-center.align-items-center
                 .col-lg-6
                   .pt-lg-5
                     h4.mb-4.titulo-item-slyder El desarrollo dirigido por comportamiento (BDD)
@@ -1243,10 +1232,10 @@
                       li
                         i.fas.fa-cog
                         span #[b Característica:] un usuario quiere acceder a una plataforma web universitaria para descargar sus apuntes.
-                .col-lg-4.order-first.order-lg-last
+                .col-lg-5.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
-                    img.mx-auto(src="@/assets/curso/temas/79.png",style="max-width: 415px;")
-              .row.justify-content-center.align-items-start
+                    img.mx-auto(src="@/assets/curso/temas/79.png",style="max-width: 491px;")
+              .row.justify-content-center.align-items-center
                 .col-lg-6
                   .pt-lg-5
                     h4.mb-4.titulo-item-slyder Primer escenario
@@ -1267,10 +1256,10 @@
                       li
                         i.fas.fa-cog
                         span El usuario puede acceder a su cuenta, su información y puede descargar sus apuntes.
-                .col-lg-4.order-first.order-lg-last
+                .col-lg-5.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/80.png",style="max-width: 415px;")
-              .row.justify-content-center.align-items-start
+              .row.justify-content-center.align-items-center
                 .col-lg-6
                   .pt-lg-5
                     h4.mb-4.titulo-item-slyder Segundo escenario
@@ -1308,16 +1297,16 @@
                         span Se ejecuta primer escenario.
 
 
-                .col-lg-4.order-first.order-lg-last
+                .col-lg-5.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/81.png",style="max-width: 415px;")
-              .row.justify-content-center.align-items-start
+              .row.justify-content-center.align-items-center
                 .col-lg-6
                   .pt-lg-5
                     h4.mb-4.titulo-item-slyder #[em Frameworks] de BDD por lenguaje
                     p.mb-0 Una vez definida, BDD utiliza herramientas para convertir esta historia de usuario en código. Para ello se utilizan "contenedores" o #[em frameworks]; hay tantos contenedores como lenguajes de programación. Normalmente están disponibles para la mayoría de los lenguajes de programación. A continuación, se muestran algunos:
 
-                .col-lg-4.order-first.order-lg-last
+                .col-lg-5.order-first.order-lg-last
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/82.png",style="max-width: 415px;")
 
@@ -1334,11 +1323,11 @@
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/83.png",style="max-width: 400px;")
           .col-lg-8(data-aos="fade-left")
-            .fondo-color-sistema-j.p-4.borde-8.mb-4
+            .fondo-color-sistema-m.p-4.borde-8.mb-4
               p.mb-4 Las pruebas exploratorias han captado significativamente la atención dentro de la comunidad de pruebas de #[em software]. Este método de pruebas se caracteriza por una interacción simultánea entre el testeo, el aprendizaje y el diseño de nuevas pruebas.
             p.mb-0 En la práctica, casi todos los #[em testers] realizan pruebas exploratorias, ya sea de manera consciente o no. Un ejemplo claro de esto son las pruebas de regresión de errores. Para confirmar la corrección de un error, el #[em tester] podría iniciar siguiendo los pasos detallados en el informe de errores. Sin embargo, una vez que el programa supera esta prueba inicial, es probable que el #[em tester] lleve a cabo pruebas adicionales para asegurarse de que el error ha sido completamente resuelto.
 
-        .fondo-color-secundario.borde-8.p-3.mb-4(data-aos="flip-up")
+        .fondo-personalizado-1.borde-8.p-2.mb-4(data-aos="flip-up")
           .row.align-items-center
             .col-md-1
               figure.mb-4.mb-md-0
@@ -1357,19 +1346,19 @@
                     img(src='@/assets/curso/temas/85.svg')
 
                 .tarjeta.borde-9.p-3(x="51%" y="13%" numero="+")
-                  .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Exploración del producto
+                  .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Exploración del producto
                   p.mb-5 Para conocer a fondo cómo cumplir con los requisitos hay que registrar los objetivos, las funciones, los tipos de datos que se procesan y las zonas de inestabilidad del producto.
                 .tarjeta.borde-9.p-3(x="72%" y="41%" numero="+")
-                  .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Diseño de pruebas
+                  .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Diseño de pruebas
                   p.mb-5 Crear diferentes estrategias para observar y evaluar por completo el producto.
                 .tarjeta.borde-9.p-3(x="63%" y="74%" numero="+")
-                  .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Ejecución de pruebas
+                  .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Ejecución de pruebas
                   p.mb-5 Explorar el producto para poder formular una hipótesis de cómo funciona y cuáles pueden ser sus puntos débiles.
                 .tarjeta.borde-9.p-3(x="36%" y="74%" numero="+")
-                  .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Heurística
+                  .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Heurística
                   p.mb-5 Reglas generales que ayudarán a cómo probar correctamente el producto.
                 .tarjeta.borde-9.p-3(x="28%" y="40%" numero="+")
-                  .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Resultados revisables
+                  .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Resultados revisables
                   p.mb-5 Cuando se finalicen las pruebas exploratorias, el tester debe ser capaz de explicar cualquier aspecto del programa y mostrar cómo se cumplen los requisitos indicados en el procedimiento.
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="fade")
@@ -1380,10 +1369,10 @@
         .col.align-self-end
           h3.mt-3.mb-0.me-2 Automatización de pruebas de regresión
 
-    .row.align-items-center.mb-4
+    .row.mb-4
       .col-lg-6(data-aos="fade-left")
         figure.mb-4.mb-lg-0
-          img.mx-auto(src="@/assets/curso/temas/86.png",style="max-width: 610px;")
+          img.mx-auto(src="@/assets/curso/temas/86.png",style="max-width: 613px;")
       .col-lg-6(data-aos="fade-rigth")
         p.mb-4 Las pruebas de regresión garantizan que los cambios realizados en una aplicación o sistema no introduzcan errores en las funcionalidades existentes. Sin embargo, realizadas de manera manual, estas pruebas pueden ser muy consumidoras de tiempo, llegando a ser más costosas que las pruebas de las nuevas funcionalidades que se están evaluando. Además, la intervención manual incrementa la susceptibilidad a errores debido al factor humano.
 

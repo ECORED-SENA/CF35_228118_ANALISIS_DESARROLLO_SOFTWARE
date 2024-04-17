@@ -182,6 +182,67 @@
     &:before
       top: 150px
 
+.fondo-personalizado-6
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background: rgb(249,252,255)
+    background: linear-gradient(180deg, rgba(249,252,255,0.23) 0%, rgba(235,245,255,0.99) 55%, rgba(224,239,255,0) 100%)
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      bottom: 170px
+      top: -45px
+
+.fondo-personalizado-7
+  background-image: url(../assets/curso/temas/f5.png)
+  background-repeat: no-repeat
+  background-size: cover
+
+.fondo-personalizado-8
+  position: relative
+  overflow: hidden
+  &:before
+    content: ""
+    position: absolute
+    right: 0
+    left: 0
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: $color-sistema-i
+  &__contenido
+    position: relative
+  .imgf-1
+    position: absolute
+    max-width: 120px
+    right: 20px
+    transform: translateY(-65%)
+  .imgf-2
+    position: absolute
+    max-width: 120px
+    bottom: 0
+    left: 15px
+    transform: translateY(60%)
+  .imgf-3
+    position: absolute
+    max-width: 471px
+    bottom: 0
+    right: 0
+    transform: translateY(38%) translateX(25%)
+
+.fondo-personalizado-9
+  background: rgb(225,246,239)
+  background: linear-gradient(180deg, rgba(225,246,239,0) 0%, rgba(223,241,235,1) 20%, rgba(226,235,251,1) 100%)
+
+
 // colores de fondo
 // colores de fondo
 .fondo-color-sistema-i
@@ -198,12 +259,14 @@
   background-color: $color-sistema-m !important
 .fondo-color-sistema-n
   background-color: $color-sistema-n !important
+.fondo-color-sistema-o
+  background-color: $color-sistema-o !important
+.fondo-color-sistema-p
+  background-color: $color-sistema-p !important
 //.fondo-color-secundario
 //  background-color: $color-secundario !important
-//.fondo-color-sistema-p
-//  background-color: $color-sistema-p !important
-//.fondo-color-sistema-q
-//  background-color: $color-sistema-q !important
+.fondo-color-sistema-q
+  background-color: $color-sistema-q !important
 
 //bordes
 .borde-8
@@ -315,6 +378,10 @@
       left: 15%
 
 //acordiones
+.acordion
+  li
+    i.fas.fa-cog
+      color: #3A1D71
 .acordion__accion__btn--a
   background-color: $color-acento-botones !important
 
@@ -327,3 +394,101 @@
 .acordion__titulo
   h3
     color: white
+
+
+//tabs
+.tabs-b
+  &__tab
+    background-color: white !important
+    border-bottom: none
+    &--active
+      background-color: $color-sistema-o !important
+    &__icon
+      order: 2
+      margin-bottom: 0 !important
+    &__title
+      margin-bottom: 20px !important
+
+//slyders personalizados
+.slider-personalizado-1
+  li
+    i.fas.fa-cog
+      color: #3A1D71
+  position: relative
+  overflow-y: clip
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-color: $color-sistema-i
+  &__contenido
+    position: relative
+    background-color: #F6F6F6 !important
+    border-radius: 20px
+    .slyder-a
+      .slyder-a__btn--sigt,.slyder-a__btn--atrs
+        background-color: $color-acento-botones
+      .slyder-a__bullets__item
+        opacity: 0.35
+        background-color: $color-sistema-p
+        border: none !important
+        &--active
+          opacity: 1 !important
+  .imgf-1
+    position: absolute
+    max-width: 120px
+    right: 10px
+    transform: translateY(-95%)
+  .imgf-2
+    position: absolute
+    max-width: 120px
+    bottom: 0
+    left: 15px
+    transform: translateY(60%)
+  .imgf-3
+    position: absolute
+    max-width: 605px
+    bottom: 0
+    right: 0
+    transform: translateY(33%) translateX(34%)
+
+//pasos
+.pasos-personalizado-1
+  .pasos-b__header__item:first-child
+    .pasos-b__header__item__line-container:before
+      background-color: transparent
+  .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+    background-color: white
+  .pasos-b__header__item--before
+    .pasos-b__header__item__line-container:after,.pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      i
+        display: none
+      span
+        display: block
+  .pasos-b__header__item--active
+    .pasos-b__header__item__dot
+      background-color: $color-acento-contenido
+      span
+        color: $color-sistema-texto
+    .pasos-b__header__item__line-container:before
+      background-color: $color-acento-contenido
+  .pasos-b__header__item__dot
+    background-color: white
+    border: none
+  .pasos-b__header__btn--right,.pasos-b__header__btn--left
+    background-color: $color-acento-botones
+    &:hover
+      border-color: #cccccc
+
+.imagen-infografica-personalizada-1
+  .img-infografica__item, .img-infografica-b__item
+    width: 4.5%
+  .tarjeta
+    background-color: white
