@@ -1376,24 +1376,26 @@
       .col-lg-6(data-aos="fade-rigth")
         p.mb-4 Las pruebas de regresión garantizan que los cambios realizados en una aplicación o sistema no introduzcan errores en las funcionalidades existentes. Sin embargo, realizadas de manera manual, estas pruebas pueden ser muy consumidoras de tiempo, llegando a ser más costosas que las pruebas de las nuevas funcionalidades que se están evaluando. Además, la intervención manual incrementa la susceptibilidad a errores debido al factor humano.
 
-    .fondo-color-secundario.borde-8.p-3.mb-5(data-aos="flip-up")
-      .row.align-items-center
-        .col-lg-1.col-md-2
-          figure.mb-4.mb-md-0
-            img.mx-auto(src="@/assets/curso/temas/87.png",style="max-width: 78px;")
-        .col-lg-11.col-md-10
-          p.mb-0.text-white Estas pruebas se realizan siguiendo flujos completos, lo que implica ejecutarlas considerando todas las opciones disponibles según la lógica de negocio. Es crucial incluir en las pruebas las partes del código que han sido modificadas, para asegurar que los cambios no afecten negativamente la interacción con el entorno en el que el #[em software] opera.
+    .fondo-personalizado-1.borde-8
+      .fondo-personalizado-1__contenido
+        .p-3.mb-5(data-aos="flip-up")
+          .row.align-items-center
+            .col-lg-1.col-md-2
+              figure.mb-4.mb-md-0
+                img.mx-auto(src="@/assets/curso/temas/87.png",style="max-width: 78px;")
+            .col-lg-11.col-md-10
+              p.mb-0.text-white Estas pruebas se realizan siguiendo flujos completos, lo que implica ejecutarlas considerando todas las opciones disponibles según la lógica de negocio. Es crucial incluir en las pruebas las partes del código que han sido modificadas, para asegurar que los cambios no afecten negativamente la interacción con el entorno en el que el #[em software] opera.
 
 
     .row.mb-4(data-aos="fade")
       .col-lg-7
         p.mb-4 Es esencial seleccionar cuidadosamente los flujos a probar, optimizando el proceso para evitar fallos costosos en producción. A pesar de que las pruebas de regresión pueden ser lentas, su automatización permite que sean tanto asertivas como rápidas. Además, la disponibilidad de scripts de pruebas facilita que cualquier persona, sin necesidad de un equipo de #[em testers] especializados, pueda ejecutarlas. Esto es particularmente útil para aplicaciones que han estado en producción durante largo tiempo, ya que reduce el riesgo asociado a la falta de conocimiento sobre los flujos de trabajo por parte del equipo.
 
-        .fondo-color-sistema-k.borde-13.p-3.mb-5
+        .fondo-color-sistema-m.borde-13.p-3.mb-5
           .row.align-items-center
             .col-md-2
               figure.mb-4.mb-md-0
-                img.mx-auto(src="@/assets/curso/temas/88.png",style="max-width: 73px;")
+                img.mx-auto(src="@/assets/curso/temas/88.png",style="max-width: 84px;")
             .col-md-10
               p.mb-0 Este tipo de pruebas, ya sean lanzadas por los desarrolladores o los #[em testers], son susceptibles de automatización. Para su implementación, se utilizan herramientas comunes a las pruebas unitarias y de sistemas. Sin embargo, también se dispone de:
 
@@ -1403,8 +1405,8 @@
 
     
     .row.justify-content-center
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.cust-tar-bot-1.color-1.color-primario.p-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.cust-tar-bot-1.color-1.color-primario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -1412,8 +1414,8 @@
 
           p.fw-bold Herramientas especializadas de código abierto diseñadas específicamente para facilitar y optimizar este proceso:
           p Winrunner, VTest, Canoo, AdventNet y QEngine.
-      .col-sm-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.cust-tar-bot-1.color-2.color-primario.p-4
+      .col-sm-6.col-lg-4.mb-4.mb-lg-0
+        .tarjeta--boton.cust-tar-bot-1.color-1.color-primario.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure
@@ -1454,17 +1456,17 @@
 
         p.mb-4(data-aos="fade") Concluir la programación de una aplicación marca un momento de éxito; con el paso del tiempo, tener un producto terminado representa un logro significativo. Sin embargo, este hito también señala el momento crucial para probar diversos aspectos del #[em software], con el fin de asegurar su correcto funcionamiento y controlar su calidad. Factores como el desempeño, la seguridad y la capacidad de carga son elementos críticos que deben evaluarse en todo producto de #[em software] desarrollado, los cuales se describen a continuación.
 
-        h4.mb-4(data-aos="fade-left") Pruebas de desempeño
+        h4.mb-4(data-aos="fade-left").titdec-per-1.p-1.pt-3.px-3 Pruebas de desempeño
 
         .row.align-items-center.mb-4
           .col-lg-5(data-aos="fade-right")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/91.png",style="max-width: 505px;")
           .col-lg-7(data-aos="fade-left")
-            .fondo-color-sistema-k.borde-12.p-4
+            .fondo-color-sistema-m.borde-12.p-4
               p.mb-0 Las pruebas de desempeño evalúan cómo se comporta un sistema en términos de estabilidad y rapidez de respuesta bajo ciertas condiciones, como la carga de trabajo, la concurrencia, el ancho de banda, y las características específicas de equipos o servidores, tales como la RAM y la CPU. Además, estas pruebas permiten identificar, medir, investigar, validar o verificar otros aspectos de calidad, incluyendo la seguridad, la escalabilidad y el consumo de recursos. Constituyen un estándar en la ejecución, diseño y arquitectura de un producto de #[em software]. Entre las pruebas de desempeño más importantes se encuentra la prueba de carga, la cual se detallará a continuación.
 
-        h4.mb-4(data-aos="fade-left") Pruebas de carga
+        h4.mb-4(data-aos="fade-left").titdec-per-1.p-1.pt-3.px-3 Pruebas de carga
 
         .row.mb-5(data-aos="flip-up")
           .col-lg-6
@@ -1481,14 +1483,14 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/cQfsW7i0fi4?si=72NqZag0sGfifmUy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Prueba de carga
 
-    h4.mb-4(data-aos="fade") Pruebas de seguridad
+    h4.mb-4(data-aos="fade").titdec-per-1.p-1.pt-3.px-3 Pruebas de seguridad
 
     .row.mb-4
       .col-lg-5
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/93.png",style="max-width: 504px;")
       .col-lg-7
-        .fondo-color-sistema-k.p-4.border-12
+        .fondo-color-sistema-m.p-4.borde-12
           p.mb-0 Las pruebas de seguridad comprenden un conjunto de actividades ejecutadas con el objetivo de identificar fallas y vulnerabilidades, buscando minimizar el impacto de ataques, el acceso no autorizado a información sensible y la pérdida de datos. Estas pruebas son esenciales porque los productos de #[em software] deben garantizar constantemente la confidencialidad, disponibilidad e integridad de los datos y funcionalidades que gestionan. La pérdida o corrupción de esta información puede tener consecuencias críticas en el ámbito empresarial. Por tanto, es crucial que estas pruebas se realicen de manera continuada a lo largo de todas las fases del proyecto, asegurando la protección efectiva contra amenazas emergentes.
 
     p.mb-4 A continuación, se presenta el siguiente video tutorial de instalación del #[em software] OWASP para realizar una prueba de seguridad:
@@ -1511,7 +1513,7 @@
       .fondo-gradiente-contenido
         .row.justify-content-center 
           .col-lg-10(data-aos="zoom-in-up")
-            PasosA.color-acento-contenido.mb-5.pasos-a-personalizado-1(tipo="n")
+            PasosA.color-sistema-i.mb-5.pasos-a-personalizado-1(tipo="n")
               .row.align-items-center
                 .col-md-6.mb-4.mb-md-0
                   p.mb-0.text-start Analizar el impacto del defecto.
@@ -1551,17 +1553,17 @@
 
         p.mb-4(data-aos="fade") El informe de resultados incluye la detección de incidencias o errores de #[em software], puesto que es aquí donde se evalúan y corrigen problemas, por lo tanto, a continuación, se describe la gestión de incidencias y su ciclo de vida.
 
-        h4.mb-4(data-aos="fade-left") Incidencias detectadas
+        h4.mb-4(data-aos="fade-left").titdec-per-1.p-1.pt-3.px-3 Incidencias detectadas
 
         .row(data-aos="flip-up")
           .col-lg-5
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/100.png",style="max-width: 505px;")
           .col-lg-7
-            .fondo-color-sistema-k.p-4.borde-12
+            .fondo-color-sistema-m.p-4.borde-12
               p.mb-0 La gestión de incidencias desempeña un papel crucial en el proceso de aseguramiento de la calidad del #[em software], ya que es en esta etapa donde se identifican y abordan los errores #[em (bugs)]. El objetivo principal de tratar las incidencias detectadas es generar las correcciones necesarias para minimizar la posibilidad de que estos errores se repitan. Este proceso asegura que el #[em software] no solo cumpla con los estándares de calidad requeridos, sino que también mejore continuamente, incrementando su fiabilidad y eficiencia.
 
-    h4.mb-4(data-aos="fade") Ciclo de vida de una incidencia
+    h4.mb-4(data-aos="fade").titdec-per-1.p-1.pt-3.px-3 Ciclo de vida de una incidencia
     p.mb-5 Un sistema de gestión de incidentes debe manejar los errores de #[em software], teniendo en cuenta el siguiente proceso:
 
     .fondo-gradiente-7.posicion-2
@@ -1575,69 +1577,66 @@
                   img(src='@/assets/curso/temas/102.svg')
 
               .tarjeta.borde-9.p-3(x="5%" y="36%" numero="+")
-                .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Nuevo
+                .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Nuevo
                 p.mb-5 Durante las pruebas de #[em software] los errores de #[em software] deben ser identificados y registrados por el tester de #[em software] siendo ese instante donde se reporta el error.
               .tarjeta.borde-9.p-3(x="23%" y="36%" numero="+")
-                .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Abierto
+                .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Abierto
                 p.mb-5 El equipo de desarrollo adquiere el incidente y empieza a analizarlo.
               .tarjeta.borde-9.p-3(x="38%" y="36%" numero="+")
-                .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Asignado
+                .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Asignado
                 p.mb-5 El incidente es asignado al desarrollador.
               .tarjeta.borde-9.p-3(x="58%" y="5%" numero="+")
-                .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Diferido
+                .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Diferido
                 p.mb-5 Si el incidente aplica y es de bajo impacto.
               .tarjeta.borde-9.p-3(x="28%" y="94%" numero="+")
-                .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Reabierto
+                .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Reabierto
                 p.mb-5 Cuando el incidente es corregido y es retornado al equipo de #[em #[b testers]] de #[em software].
               .tarjeta.borde-9.p-3(x="76%" y="36%" numero="+")
-                .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Verificado
+                .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Verificado
                 p.mb-5 Si la prueba es positiva.
               .tarjeta.borde-9.p-3(x="93%" y="36%" numero="+")
-                .h5.mb-4.d-inline-block.p-2(style="background-color: #BAE9D9;") Cerrado
+                .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Cerrado
                 p.mb-5 Posterior a una verificación por parte del equipo de #[em testing].
 
         p.mb-4.pt-5(data-aos="fade-left") El proceso mencionado se adecúa a proyectos de #[em software] en fase de desarrollo, pero no así en ambientes de producción.
 
-        h4.mb-4(data-aos="zoom-in-up") Redacción del reporte de Incidencias
+        h4.mb-4(data-aos="zoom-in-up").titdec-per-1.p-1.pt-3.px-3 Redacción del reporte de Incidencias
         p.mb-4 El propósito del informe de incidentes es documentar cada incidente, por lo tanto, se debe seguir un procedimiento para gestionar de forma sistémica y ordenada las incidencias de producto halladas a lo largo de la ejecución de los casos de prueba. Este procedimiento tiene las siguientes actividades:
 
         .row.justify-content-center.mb-4
           .col-lg-4.col-md-6.mb-4(data-aos="fade-up")
             .tarjeta-personalizada-2.color-1
               .tarjeta-personalizada-2__contenido.px-4.pb-2
-                .enumeracion-circulo.mb-5
-                  .enumeracion-circulo__cont
-                    .enumeracion-circulo__cont-fondo
-                      span.numero-texto 1
-                p.mb-5 Verificar con las áreas correspondientes las incidencias.
+                figure.mb-4
+                  img.mx-auto(src="@/assets/curso/temas/137.png",style="max-width: 125px;")
+                span.abs-num-dec-1 1
+                p.mb-5.text-white Verificar con las áreas correspondientes las incidencias.
           .col-lg-4.col-md-6.mb-4(data-aos="fade-down")
-            .tarjeta-personalizada-2.color-2
+            .tarjeta-personalizada-2.color-1
               .tarjeta-personalizada-2__contenido.px-4.pb-2
-                .enumeracion-circulo.mb-5
-                  .enumeracion-circulo__cont
-                    .enumeracion-circulo__cont-fondo
-                      span.numero-texto 2
-                p.mb-5 Verificar que el estado de las incidencias este actualizado.
+                figure.mb-4
+                  img.mx-auto(src="@/assets/curso/temas/138.png",style="max-width: 125px;")
+                span.abs-num-dec-1 2
+                p.mb-5.text-white Verificar que el estado de las incidencias este actualizado.
           .col-lg-4.col-md-6.mb-4(data-aos="fade-up")
             .tarjeta-personalizada-2.color-1
               .tarjeta-personalizada-2__contenido.px-4.pb-2
-                .enumeracion-circulo.mb-5
-                  .enumeracion-circulo__cont
-                    .enumeracion-circulo__cont-fondo
-                      span.numero-texto 3
-                p.mb-5 Realizar repruebas y regresión, es decir generar otra vez la ejecución de los casos de prueba necesarios.
+                figure.mb-4
+                  img.mx-auto(src="@/assets/curso/temas/139.png",style="max-width: 125px;")
+                span.abs-num-dec-1 3
+                p.mb-5.text-white Realizar repruebas y regresión, es decir generar otra vez la ejecución de los casos de prueba necesarios.
 
         p.mb-4(data-aos="fade") Por otra parte, para estructurar el informe de incidentes se requiere tener en cuenta los siguientes puntos:
 
         .row.justify-content-center.mb-5(data-aos="fade-left")
           .col-lg-10
-            .fondo-color-secundario.p-4.px-lg-5.borde-20
+            .fondo-color-sistema-k.p-4.px-lg-5.borde-20
               .row.align-items-center.justify-content-between
                 .col-md-2
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/104.png",style="max-width: 156px;")
                 .col-md-10.col-lg-9
-                  ul.lista-ul.lista-tipo-1.margen-2.fa-ul.mb-0.ms-0.text-white
+                  ul.lista-ul.lista-tipo-1.margen-2.fa-ul.mb-0.ms-0
                     li
                       i.fas.fa-cube
                       span Identificador.
@@ -1652,7 +1651,7 @@
                       span Impacto que los incidentes tendrán con respecto a las pruebas.
 
 
-    h4.mb-4 Reporte de defectos
+    h4.mb-4.titdec-per-1.p-1.pt-3.px-3 Reporte de defectos
     p.mb-4(data-aos="zoom-in-up") Cuando se confirma la existencia de un defecto, se elabora un reporte. Este documento detalla los fallos identificados durante el proceso de pruebas, subrayando la importancia de que cada defecto detectado cuente con un reporte individual. Esto facilita la trazabilidad y su corrección posterior. A continuación, se describe la estructura típica de un reporte de defectos.
 
     .row.justify-content-center.mb-5
@@ -1702,7 +1701,7 @@
               span 10
             span Información adicional. 
 
-    h4.mb-4 Informe de resultados de pruebas
+    h4.mb-4.titdec-per-1.p-1.pt-3.px-3 Informe de resultados de pruebas
 
     .row.align-items-center(data-aos="flip-up")
       .col-lg-8
@@ -1711,11 +1710,11 @@
 
           ol.lista-tipo-1.margen.lista-ol--cuadro
             li
-              .lista-ol--cuadro__vineta
+              .lista-ol--cuadro__vineta(style="background-color: #3A1D71 !important;")
                 span A
               span Alcance de las pruebas, es decir lo que es necesario incluir y no incluir.
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol--cuadro__vineta(style="background-color: #3A1D71 !important;")
                 span B
               span Resumen de pruebas.
             ul.ms-5
@@ -1735,11 +1734,11 @@
                 i.fas.fa-cube(style="color: #273A89;position: relative;top:3px;margin-right: 0.3rem;")
                 span Casos de prueba bloqueados.
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol--cuadro__vineta(style="background-color: #3A1D71 !important;")
                 span C
               span Listado de defectos detectados.
             li 
-              .lista-ol--cuadro__vineta
+              .lista-ol--cuadro__vineta(style="background-color: #3A1D71 !important;")
                 span D
               span Conclusiones.
 

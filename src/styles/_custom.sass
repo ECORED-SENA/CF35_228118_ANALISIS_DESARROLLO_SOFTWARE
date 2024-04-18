@@ -242,6 +242,34 @@
   background: rgb(225,246,239)
   background: linear-gradient(180deg, rgba(225,246,239,0) 0%, rgba(223,241,235,1) 20%, rgba(226,235,251,1) 100%)
 
+.fondo-personalizado-11
+  position: absolute
+  background-color: #D6E1FD
+  overflow: hidden
+  border-radius: 17px
+  width: 96%
+  top: 6%
+  bottom: 8%
+  right: 0
+  @media screen and (max-width: 992px)
+    top: 0
+    bottom: 0
+    width: 100%
+  .img-1
+    position: absolute
+    top: 0
+    right: 0
+    transform: translateY(-30%) translateX(16%)
+  .img-2
+    position: absolute
+    top: 0
+    left: 0
+    transform: translateY(-43%) translateX(40%)
+  .img-3
+    position: absolute
+    right: 0
+    bottom: 0
+    transform: translateY(45%) translateX(70%)
 
 // colores de fondo
 // colores de fondo
@@ -492,3 +520,142 @@
     width: 4.5%
   .tarjeta
     background-color: white
+
+.tarjeta--boton.cust-tar-bot-1
+  background-color: $color-sistema-i !important
+  p
+    color: white !important
+
+.tarjeta--boton.cust-tar-bot-1.color-1:hover
+  background-color: #7914D3 !important
+  p
+    color: white !important
+
+.titdec-per-1
+  background-color: $color-sistema-i
+  color: white
+  border-radius: 20px
+  display: inline-block
+
+.pasos-a-personalizado-1
+  .pasos-a__circle div
+    color: white !important
+
+.pasos-a.color-sistema-i 
+  .pasos-a__numero:after
+    border-left-color: $color-sistema-i
+  .pasos-a__linea__esquina__linea
+    border-color: $color-sistema-i
+  .pasos-a__linea .hor-line
+    border-top-color: $color-sistema-i
+  .pasos-a__circle
+    background-color: $color-sistema-i
+
+.tarjeta-personalizada-2
+  &.color-1
+    &:before
+      background-color: $color-sistema-i
+    .enumeracion-circulo
+      &__cont
+        border-color: #608AB9
+        &-fondo
+          background-color: #608AB9
+  &.color-2
+    &:before
+      background-color: #BAE9D9
+    .enumeracion-circulo
+      &__cont
+        border-color: #60A58E
+        &-fondo
+          background-color: #60A58E
+  display: flex
+  height: 100%
+  width: 100%
+  position: relative
+  &__contenido
+    width: 100%
+    position: relative
+    display: flex
+    flex-direction: column
+  &:before
+    content: ""
+    position: absolute
+    top: 50px
+    left: 0
+    right: 0
+    bottom: 0
+    border-radius: 12px
+    background-color: green
+  .enumeracion-circulo
+    display: inline-flex
+    margin-left:  auto
+    margin-right:  auto
+    .numero-texto
+      font-size: 60px
+      color: white
+      font-weight: bold
+
+    &__cont
+      width: 124px
+      height: 124px
+      display: flex
+      align-items: center
+      justify-content: center
+      border-width: 1px
+      border-style: solid
+      border-radius: 50%
+      &-fondo
+        display: flex
+        align-items: center
+        justify-content: center
+        border-radius: 50%
+        padding: 1rem
+        width: 102px
+        height: 102px
+
+.abs-num-dec-1
+  position: absolute
+  top: 42px
+  color: white
+  font-weight: bold
+  font-size: 60px
+  left: 12px
+
+
+.figura-tema2-1
+  .cont-tema2-1
+    display: flex
+  .cont-figura-tem2
+    position: relative
+    z-index: 1
+    figure
+      min-width: 206px
+      max-width: 206px
+      @media screen and (max-width: 768px)
+        min-width: 150px
+        max-width: 150px
+      @media screen and (max-width: 576px)
+        min-width: 80px
+        max-width: 80px
+  .fondo-cuerpo-fig
+    position: relative
+    display: flex
+    *
+      position: relative
+    &:before
+      content: ""
+      position: absolute
+      z-index: 0
+      top: 0
+      left: -98px
+      bottom: 0
+      right: 0
+      background-color: #DCECFE
+    @media screen and (max-width: 576px)
+      &:before
+        left: -40px
+        
+  .punta-figura
+    background-color: #B6CDE8
+    border-top-right-radius: 19px
+    border-bottom-right-radius: 19px
