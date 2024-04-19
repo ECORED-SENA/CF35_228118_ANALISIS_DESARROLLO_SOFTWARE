@@ -271,6 +271,26 @@
     bottom: 0
     transform: translateY(45%) translateX(70%)
 
+.fondo-personalizado-12
+  position: relative
+  &:before
+    content: ""
+    position: absolute
+    width: 120%
+    left: -10%
+    top: 0
+    bottom: 0
+    z-index: 0
+    background-image: url(../assets/curso/temas/f4.png)
+    background-repeat: no-repeat
+    background-size: cover
+    background-position: top
+  &__contenido
+    position: relative
+  &.pos-1
+    &:before
+      top: -100px
+
 // colores de fondo
 // colores de fondo
 .fondo-color-sistema-i
