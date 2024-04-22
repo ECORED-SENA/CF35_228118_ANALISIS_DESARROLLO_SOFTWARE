@@ -133,7 +133,7 @@
               figure
                 img(src='@/assets/curso/temas/11.png')
 
-          h4.text-center XUnit.
+          h4.text-center XUnit
           p Es una herramienta de pruebas unitarias para el #[em framework] .NET.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0(data-aos="fade-down")
@@ -143,7 +143,7 @@
               figure
                 img(src='@/assets/curso/temas/12.png')
 
-          h4.text-center Nunit.
+          h4.text-center Nunit
           p Es una herramienta de pruebas de plataformas .NET.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0(data-aos="fade-up")
@@ -153,7 +153,7 @@
               figure
                 img(src='@/assets/curso/temas/13.png')
 
-          h4.text-center Junit.
+          h4.text-center Junit
           p Es una herramienta de pruebas de aplicaciones Java.
 
       .col-sm-6.col-lg-3(data-aos="fade-down")
@@ -163,7 +163,7 @@
               figure
                 img(src='@/assets/curso/temas/14.png')
 
-          h4.text-center PhpUnit.
+          h4.text-center PhpUnit
           p Es una herramienta de pruebas de programación PHP.
 
     p.mb-4(data-aos="fade-right") Para realizar las pruebas unitarias, se deben tener en cuenta los siguientes criterios:
@@ -639,7 +639,7 @@
               img.mx-auto(src="@/assets/curso/temas/42.png",style="max-width: 429px;")
           .col-lg-7(data-aos="fade-left")
             p.mb-5 Las metodologías ágiles proporcionan un conjunto de directrices y principios diseñados para agilizar y priorizar la entrega de productos sobre la documentación exhaustiva, simplificando los procesos e involucrando al cliente final desde las etapas iniciales del proyecto. Es importante destacar que una metodología ágil se compone de iteraciones o #[em sprints], cada uno de duración relativamente corta, generalmente de dos a cuatro semanas. Al finalizar cada iteración, se disponen de funcionalidades del #[em software] que pueden ser entregadas y utilizadas por el cliente.
-            p.mb-0 Recordando las metodologías ágiles, se puede especificar que las pruebas ágiles (#[em Agile Testing]) son una práctica que se lleva a cabo en cada iteración. Existen dos tipos de planificaciones: la planificación de #[b lanzamiento/entrega], que se refiere a las entregas frecuentes al cliente, es decir, la puesta en producción de nuevas versiones del producto; y la planificación de #[b sprint/iteración], que indica que un proyecto se ejecuta en bloques temporales cortos y fijos. Sin embargo, estas planificaciones pueden coincidir en un mismo momento, es decir, puede haber una sola planificación que incluya actividades tanto de lanzamiento como de #[em sprint], tal como se muestra en la siguiente figura:
+            p.mb-0 Recordando las metodologías ágiles, se puede especificar que las pruebas ágiles (#[em Agile Testing]) son una práctica que se lleva a cabo en cada iteración. Existen dos tipos de planificaciones: la planificación de #[b lanzamiento/entrega], que se refiere a las entregas frecuentes al cliente, es decir, la puesta en producción de nuevas versiones del producto; y la planificación de #[b #[em sprint]/iteración], que indica que un proyecto se ejecuta en bloques temporales cortos y fijos. Sin embargo, estas planificaciones pueden coincidir en un mismo momento, es decir, puede haber una sola planificación que incluya actividades tanto de lanzamiento como de #[em sprint], tal como se muestra en la siguiente figura:
 
         .row.justify-content-center.mb-5(data-aos="zoom-in-up")
           .col-lg-10
@@ -1024,35 +1024,35 @@
               th Ejemplo
           tbody
             tr
-              td Red
+              td #[em Red]
               td 1. Lo primero es que el cliente escriba una historia de usuario.       
               td Supóngase que el cliente solicita que se desarrolle una aplicación con operaciones matemáticas sencillas que sume y reste.
             tr
-              td Red
+              td #[em Red]
               td 2. Los criterios de aceptación de esta historia se escriben con el cliente, deben estar bien detallados.     
               td Se define con el cliente que el criterio de aceptación está relacionado con: si se introduce en la aplicación dos números y se suma o resta, entonces la aplicación visualiza el resultado en pantalla.
             tr
-              td Red
+              td #[em Red]
               td 3. Se debe seleccionar el criterio de aceptación más sencillo y se traduce en una prueba unitaria.     
               td De acuerdo a este criterio, se empieza a especificar o definir el funcionamiento del algoritmo para la suma y la resta y se luego se convierte el criterio de aceptación en una prueba específica, por ejemplo, un algoritmo que si se introduce los números 3 y 8 devuelve 11. Ejemplo de cómo sería la clase para calcular:  public void testSuma() { assertEquals(8, Operaciones.suma(3,8)); }
             tr
-              td Red
+              td #[em Red]
               td 4. Se verifica que la prueba falla.    
               td RED	4. Se verifica que la prueba falla. Si se intenta pasar este test resultara en error, debido a que la clase Operaciones todavía no existe.
             tr
-              td Green
+              td #[em Green]
               td 5. Se escribe el código que hace pasar la prueba.   
               td Posteriormente el siguiente paso es escribir el código de la clase, en este momento ya se sabe cómo se va a comportar. public class Operaciones { public static int suma (int a, int b) { int c = a + b; return c; } }
             tr
-              td Green
+              td #[em Green]
               td 6. Se ejecutan todas las pruebas automatizadas.  
               td Posteriormente se ejecuta la prueba y en este momento se tiene el código funcionado con la prueba pasada.
             tr
-              td Refactor
+              td #[em Refactor]
               td 7. Se ejecutan todas las pruebas automatizadas.  
               td Cuando esté todo funcionando, se pasa a refactorizar y a eliminar código duplicado.
             tr
-              td Refactor
+              td #[em Refactor]
               td 8. Se refactoriza y se limpia el código.
               td Es necesario pasar todos los test después de refactorizar.
 
@@ -1358,7 +1358,7 @@
                   .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Heurística
                   p.mb-5 Reglas generales que ayudarán a cómo probar correctamente el producto.
                 .tarjeta.borde-9.p-3(x="28%" y="40%" numero="+")
-                  .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Resultados revisables
+                  .h5.mb-4.d-inline-block.p-2.text-white(style="background-color: #3A1D71;") Resultados visibles
                   p.mb-5 Cuando se finalicen las pruebas exploratorias, el tester debe ser capaz de explicar cualquier aspecto del programa y mostrar cómo se cumplen los requisitos indicados en el procedimiento.
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="fade")
@@ -1456,7 +1456,7 @@
 
         p.mb-4(data-aos="fade") Concluir la programación de una aplicación marca un momento de éxito; con el paso del tiempo, tener un producto terminado representa un logro significativo. Sin embargo, este hito también señala el momento crucial para probar diversos aspectos del #[em software], con el fin de asegurar su correcto funcionamiento y controlar su calidad. Factores como el desempeño, la seguridad y la capacidad de carga son elementos críticos que deben evaluarse en todo producto de #[em software] desarrollado, los cuales se describen a continuación.
 
-        h4.mb-4(data-aos="fade-left").titdec-per-1.p-1.pt-3.px-3 Pruebas de desempeño
+        h4.mb-4(data-aos="fade-left").titdec-per-1.py-2.px-3 Pruebas de desempeño
 
         .row.align-items-center.mb-4
           .col-lg-5(data-aos="fade-right")
@@ -1466,7 +1466,7 @@
             .fondo-color-sistema-m.borde-12.p-4
               p.mb-0 Las pruebas de desempeño evalúan cómo se comporta un sistema en términos de estabilidad y rapidez de respuesta bajo ciertas condiciones, como la carga de trabajo, la concurrencia, el ancho de banda, y las características específicas de equipos o servidores, tales como la RAM y la CPU. Además, estas pruebas permiten identificar, medir, investigar, validar o verificar otros aspectos de calidad, incluyendo la seguridad, la escalabilidad y el consumo de recursos. Constituyen un estándar en la ejecución, diseño y arquitectura de un producto de #[em software]. Entre las pruebas de desempeño más importantes se encuentra la prueba de carga, la cual se detallará a continuación.
 
-        h4.mb-4(data-aos="fade-left").titdec-per-1.p-1.pt-3.px-3 Pruebas de carga
+        h4.mb-4(data-aos="fade-left").titdec-per-1.py-2.px-3 Pruebas de carga
 
         .row.mb-5(data-aos="flip-up")
           .col-lg-6
@@ -1483,7 +1483,7 @@
             iframe(width="560" height="315" src="https://www.youtube.com/embed/cQfsW7i0fi4?si=72NqZag0sGfifmUy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
           figcaption Video. Prueba de carga
 
-    h4.mb-4(data-aos="fade").titdec-per-1.p-1.pt-3.px-3 Pruebas de seguridad
+    h4.mb-4(data-aos="fade").titdec-per-1.py-2.px-3 Pruebas de seguridad
 
     .row.mb-4
       .col-lg-5
@@ -1553,7 +1553,7 @@
 
         p.mb-4(data-aos="fade") El informe de resultados incluye la detección de incidencias o errores de #[em software], puesto que es aquí donde se evalúan y corrigen problemas, por lo tanto, a continuación, se describe la gestión de incidencias y su ciclo de vida.
 
-        h4.mb-4(data-aos="fade-left").titdec-per-1.p-1.pt-3.px-3 Incidencias detectadas
+        h4.mb-4(data-aos="fade-left").titdec-per-1.py-2.px-3 Incidencias detectadas
 
         .row(data-aos="flip-up")
           .col-lg-5
@@ -1563,7 +1563,7 @@
             .fondo-color-sistema-m.p-4.borde-12
               p.mb-0 La gestión de incidencias desempeña un papel crucial en el proceso de aseguramiento de la calidad del #[em software], ya que es en esta etapa donde se identifican y abordan los errores #[em (bugs)]. El objetivo principal de tratar las incidencias detectadas es generar las correcciones necesarias para minimizar la posibilidad de que estos errores se repitan. Este proceso asegura que el #[em software] no solo cumpla con los estándares de calidad requeridos, sino que también mejore continuamente, incrementando su fiabilidad y eficiencia.
 
-    h4.mb-4(data-aos="fade").titdec-per-1.p-1.pt-3.px-3 Ciclo de vida de una incidencia
+    h4.mb-4(data-aos="fade").titdec-per-1.py-2.px-3 Ciclo de vida de una incidencia
     p.mb-5 Un sistema de gestión de incidentes debe manejar los errores de #[em software], teniendo en cuenta el siguiente proceso:
 
     .fondo-gradiente-7.posicion-2
@@ -1600,7 +1600,7 @@
 
         p.mb-4.pt-5(data-aos="fade-left") El proceso mencionado se adecúa a proyectos de #[em software] en fase de desarrollo, pero no así en ambientes de producción.
 
-        h4.mb-4(data-aos="zoom-in-up").titdec-per-1.p-1.pt-3.px-3 Redacción del reporte de Incidencias
+        h4.mb-4(data-aos="zoom-in-up").titdec-per-1.py-2.px-3 Redacción del reporte de Incidencias
         p.mb-4 El propósito del informe de incidentes es documentar cada incidente, por lo tanto, se debe seguir un procedimiento para gestionar de forma sistémica y ordenada las incidencias de producto halladas a lo largo de la ejecución de los casos de prueba. Este procedimiento tiene las siguientes actividades:
 
         .row.justify-content-center.mb-4
@@ -1651,7 +1651,7 @@
                       span Impacto que los incidentes tendrán con respecto a las pruebas.
 
 
-    h4.mb-4.titdec-per-1.p-1.pt-3.px-3 Reporte de defectos
+    h4.mb-4.titdec-per-1.py-2.px-3 Reporte de defectos
     p.mb-4(data-aos="zoom-in-up") Cuando se confirma la existencia de un defecto, se elabora un reporte. Este documento detalla los fallos identificados durante el proceso de pruebas, subrayando la importancia de que cada defecto detectado cuente con un reporte individual. Esto facilita la trazabilidad y su corrección posterior. A continuación, se describe la estructura típica de un reporte de defectos.
 
     .row.justify-content-center.mb-5
@@ -1701,7 +1701,7 @@
               span 10
             span Información adicional. 
 
-    h4.mb-4.titdec-per-1.p-1.pt-3.px-3 Informe de resultados de pruebas
+    h4.mb-4.titdec-per-1.py-2.px-3 Informe de resultados de pruebas
 
     .row.align-items-center(data-aos="flip-up")
       .col-lg-8
