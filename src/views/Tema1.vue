@@ -91,7 +91,7 @@
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 72px;")
                 .col-sm-10(data-aos="fade-down")
-                  p.mb-0.fw-bold.text-white De acuerdo a Mera (2016) también se las conoce como #[em unit testing] son pequeños #[em tests] en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
+                  p.mb-0.fw-bold.text-white De acuerdo por Mera (2016) también se las conoce como #[em unit testing] son pequeños #[em test] en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
           .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/8.png",style="max-width: 388px;")
@@ -202,7 +202,7 @@
         figure.mb-4.mb-lg-0
           img.mx-auto(src="@/assets/curso/temas/16.png",style="max-width: 400px;")
       .col-lg-8(data-aos="fade-left")
-        p.mb-4 Estas pruebas se centran en validar distintos módulos o componentes de un producto de #[em software] de tal forma que se verifique su funcionamiento como grupo funcional. Productos como aplicaciones de #[em software], sistemas de información o aplicaciones web están compuestos por diversos componentes, módulos y submódulos distribuidos en distintos niveles y capas, que colaboran y se coordinan para habilitar diferentes funcionalidades.
+        p.mb-4 Estas pruebas se centran en validar distintos módulos o componentes de un producto de #[em software] de tal forma que se verifique su funcionamiento como grupo funcional. Productos como aplicaciones de #[em software], sistemas de información o aplicaciones web, están compuestos por diversos componentes, módulos y submódulos distribuidos en distintos niveles y capas, que colaboran y se coordinan para habilitar diferentes funcionalidades.
 
         .p-3.fondo-float-1.posicion-1.mb-4
           p.mb-0 #[b El objetivo de estas pruebas es asegurar que la integración entre estos componentes sea adecuada y detectar posibles problemas o errores relacionados con la sinergia y comunicación entre ellos.]
@@ -433,7 +433,7 @@
               span Detecta problemas desde el inicio, esto permite reducir los costos de las pruebas.
             li
               i.far.fa-check-square
-              span Con una mejor refactorización del código mejora la calidad del código.
+              span Con una mejor refactorización del código, mejora la calidad del código.
             li
               i.far.fa-check-square
               span Permite una buena documentación y simplifica la integración.
@@ -523,10 +523,10 @@
             tbody
               tr
                 td Identificador
-                td Identificador	Puede ser alfanumérico o numérico.
+                td Puede ser alfanumérico o numérico.
               tr
                 td Nombre
-                td Nombre	Nombre del caso de prueba de manera concisa.
+                td Nombre del caso de prueba de manera concisa.
               tr
                 td Descripción 
                 td Objetivo del caso de prueba, también describe que probara, en ciertas ocasiones se incluye el ambiente de pruebas.
@@ -546,7 +546,7 @@
                 td Resultado esperado
                 td Objetivo que debe ser alcanzado posterior a ejecutarse la prueba.
 
-        p(data-aos="fade") Identificar, describir y documentar casos de prueba facilita el trabajo cuando es necesario evaluar y comparar las modificaciones a los requerimientos inicialmente definidos por el cliente a lo largo del tiempo. Este seguimiento permite verificar que los resultados obtenidos estén acordes con lo requerido o solicitado, logrando así la satisfacción del cliente. Esto convierte a los casos de prueba en un aliado principal al momento de garantizar la calidad del #[em software].
+        p(data-aos="fade") Identificar, describir y documentar casos de prueba, facilita el trabajo cuando es necesario evaluar y comparar las modificaciones a los requerimientos inicialmente definidos por el cliente a lo largo del tiempo. Este seguimiento permite verificar que los resultados obtenidos estén acordes con lo requerido o solicitado, logrando así la satisfacción del cliente. Esto convierte a los casos de prueba en un aliado principal al momento de garantizar la calidad del #[em software].
 
         .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="flip-up")
           .row
@@ -572,7 +572,7 @@
 
     .fondo-personalizado-6.pos-1
       .fondo-personalizado-6__contenido
-        p.mb-5(data-aos="fade-left") El diagrama de actividades mencionado anteriormente detalla el flujo que debe considerarse al momento de ejecutar las pruebas de #[em software]. Por esta razón, a continuación se describen cada una de las actividades implicadas.
+        p.mb-5(data-aos="fade-left") El diagrama de actividades mencionado anteriormente, detalla el flujo que debe considerarse al momento de ejecutar las pruebas de #[em software]. Por esta razón, a continuación se describen cada una de las actividades implicadas.
 
         .row.justify-content-center(data-aos="fade")
           .col-lg-4.col-md-6.mb-4

@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Aplicación de pruebas de <em>software</em>',
     descripcionCurso:
-      'En este componente, el aprendiz identificará que un <em>software</em> de calidad implica la utilización de diferentes tipos de pruebas, metodologías y procedimientos estándares para el análisis, diseño, programación y prueba del <em>software</em>. Esto con el objetivo de lograr una mayor confiabilidad, mantenibilidad y facilidad de prueba, así como de elevar la productividad tanto en la labor de desarrollo como en el control de calidad.',
+      'En este componente, el aprendiz identificará que un <em>software</em> de calidad implica la utilización de diferentes tipos de pruebas, metodologías y procedimientos estándares para el análisis, diseño, programación y prueba del <em>software</em>. Lo anterior con el objetivo de lograr una mayor confiabilidad, mantenibilidad y facilidad de prueba, así como de elevar la productividad tanto en la labor de desarrollo como en el control de calidad.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -301,13 +301,13 @@ export default {
       autores: [
         {
           nombre: 'Ervin Andrade',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Peter Pinchao',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
