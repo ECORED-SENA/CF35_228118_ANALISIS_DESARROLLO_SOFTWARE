@@ -91,7 +91,7 @@
                   figure.mb-4.mb-lg-0
                     img.mx-auto(src="@/assets/curso/temas/7.svg",style="max-width: 72px;")
                 .col-sm-10(data-aos="fade-down")
-                  p.mb-0.fw-bold.text-white De acuerdo por Mera (2016) también se las conoce como #[em unit testing] son pequeños #[em test] en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
+                  p.mb-0.fw-bold.text-white De acuerdo con Mera (2016) también se las conoce como #[em unit testing] son pequeños #[em test] en los cuales se revisa que el comportamiento de un objeto y su lógica funcione adecuadamente.
           .col-lg-4.order-first.order-lg-last(data-aos="fade-left")
             figure.mb-4.mb-lg-0
               img.mx-auto(src="@/assets/curso/temas/8.png",style="max-width: 388px;")
@@ -491,7 +491,7 @@
             h4.figura-flecha__titulo.mb-0 Construcción
             figure.figura-flecha__fig
               img.mx-auto(src="@/assets/curso/temas/36.png",style="max-width: 228px;")
-          p.px-3.pb-4.text-white En esta etapa se encuentran los casos y script de prueba como conjunto de condiciones con las cuales un tester debe determinar si un sistema funciona según lo requerido.
+          p.px-3.pb-4.text-white En esta etapa se encuentran los casos y script de prueba como conjunto de condiciones con las cuales un #[em tester] debe determinar si un sistema funciona según lo requerido.
       .col-lg-4.col-md-6.mb-4(data-aos="fade-left")
         .tarjeta-personalizada-1.tarjeta-personalizada-1--color-1.h-100
           .figura-flecha.mb-4.me-4
@@ -647,8 +647,8 @@
               p.mb-0 #[b Figura 3.] Actividades #[em Sprints Reléase]
             .fondo-color-sistema-n.borde-18.p-3.p-md-4.pt-4.pb-4
               figure
-                img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/43.png",style="max-width: 820px;",alt="La figura muestra un diagrama que representa la estructura de los sprints en un marco de trabajo Agile. Cada sprint está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de Agile Testing, y termina con la fase de Release/Entrega. El diagrama repite esta estructura para Sprint 1, Sprint 2, y así sucesivamente hasta Sprint n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples sprints.")
-                img.mx-auto.d-lg-none(src="@/assets/curso/temas/44.png",style="max-width: 270px;",alt="La figura muestra un diagrama que representa la estructura de los sprints en un marco de trabajo Agile. Cada sprint está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de Agile Testing, y termina con la fase de Release/Entrega. El diagrama repite esta estructura para Sprint 1, Sprint 2, y así sucesivamente hasta Sprint n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples sprints.")
+                img.mx-auto.d-none.d-lg-block(src="@/assets/curso/temas/43.png",style="max-width: 820px;",alt="La figura muestra un diagrama que representa la estructura de los sprints en un marco de trabajo Agile. Cada sprint está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de #[em Agile Testing], y termina con la fase de #[em Release]/Entrega. El diagrama repite esta estructura para #[em Sprint 1, Sprint 2], y así sucesivamente hasta #[em Sprint] n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples #[em sprints.]")
+                img.mx-auto.d-lg-none(src="@/assets/curso/temas/44.png",style="max-width: 270px;",alt="La figura muestra un diagrama que representa la estructura de los #[em sprints] en un marco de trabajo #[em Agile]. Cada #[em sprint] está dividido en dos semanas y sigue un flujo de trabajo consistente. Comienza con la fase de Requisitos, seguida por la fase de Diseño/Implementación, luego viene la fase de #[em Agile Testing], y termina con la fase de #[em Release]/Entrega. El diagrama repite esta estructura para #[em Sprint 1, Sprint 2], y así sucesivamente hasta Sprint n, indicando que es un proceso iterativo y escalable que se aplica a través de múltiples #[em sprints.]")
 
     .row.align-items-center.mb-5
       .col-lg-7(data-aos="fade-down")
@@ -1038,7 +1038,7 @@
             tr
               td #[em Red]
               td 4. Se verifica que la prueba falla.    
-              td RED	4. Se verifica que la prueba falla. Si se intenta pasar este test resultara en error, debido a que la clase Operaciones todavía no existe.
+              td RED	4. Se verifica que la prueba falla. Si se intenta pasar este #[em test] resultara en error, debido a que la clase Operaciones todavía no existe.
             tr
               td #[em Green]
               td 5. Se escribe el código que hace pasar la prueba.   
@@ -1054,7 +1054,7 @@
             tr
               td #[em Refactor]
               td 8. Se refactoriza y se limpia el código.
-              td Es necesario pasar todos los test después de refactorizar.
+              td Es necesario pasar todos los #[em test] después de refactorizar.
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4(data-aos="fade")
       .row
@@ -1141,7 +1141,7 @@
       .pb-5
         .p-4.borde-24
           figure
-            img.mx-auto(src="@/assets/curso/temas/76.svg",style="max-width: 1008px;",alt="La figura muestra un diagrama de flujo para ATDD, que inicia con el desglose de requisitos en historias, su priorización y aceptación colaborativa. Luego, se establecen y automatizan los criterios de aceptación en tests, continuando con la automatización de tests unitarios y de integración. El ciclo concluye con la verificación de los tests de aceptación para producir una versión entregable del producto, reflejando un proceso iterativo y colaborativo en el desarrollo de software.")
+            img.mx-auto(src="@/assets/curso/temas/76.svg",style="max-width: 1008px;",alt="La figura muestra un diagrama de flujo para ATDD, que inicia con el desglose de requisitos en historias, su priorización y aceptación colaborativa. Luego, se establecen y automatizan los criterios de aceptación en #[em test], continuando con la automatización de #[em test] unitarios y de integración. El ciclo concluye con la verificación de los #[em test] de aceptación para producir una versión entregable del producto, reflejando un proceso iterativo y colaborativo en el desarrollo de software.")
 
     .cont-titulo-decorativo.p-2.mt-5.mb-4
       .row
@@ -1162,7 +1162,7 @@
           .col-lg-6.mb-4.mb-lg-0
             .fondo-personalizado-9.p-4
               figure
-                img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 525px;",alt="El diagrama describe la interacción entre BDD y TDD en el desarrollo de software, donde se comienza redactando una especificación funcional que no se cumple, seguido de la creación de un test que falla en TDD. Después, se escribe el código necesario para pasar el test y se procede a la refactorización del mismo. Este ciclo iterativo enfatiza la importancia de la definición de comportamientos y pruebas previas a la implementación efectiva del código.")
+                img.mx-auto(src="@/assets/curso/temas/77.svg",style="max-width: 525px;",alt="El diagrama describe la interacción entre BDD y TDD en el desarrollo de software, donde se comienza redactando una especificación funcional que no se cumple, seguido de la creación de un #[em test] que falla en TDD. Después, se escribe el código necesario para pasar el #[em test] y se procede a la refactorización del mismo. Este ciclo iterativo enfatiza la importancia de la definición de comportamientos y pruebas previas a la implementación efectiva del código.")
           .col-lg-6
 
             figure.mb-4(data-aos="fade-right")
@@ -1578,7 +1578,7 @@
 
               .tarjeta.borde-9.p-3(x="5%" y="36%" numero="+")
                 .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Nuevo
-                p.mb-5 Durante las pruebas de #[em software] los errores de #[em software] deben ser identificados y registrados por el tester de #[em software] siendo ese instante donde se reporta el error.
+                p.mb-5 Durante las pruebas de #[em software] los errores de #[em software] deben ser identificados y registrados por el #[em tester] de #[em software] siendo ese instante donde se reporta el error.
               .tarjeta.borde-9.p-3(x="23%" y="36%" numero="+")
                 .h5.mb-4.d-inline-block.p-2(style="background-color: #3A1D71;color: white;") Abierto
                 p.mb-5 El equipo de desarrollo adquiere el incidente y empieza a analizarlo.
