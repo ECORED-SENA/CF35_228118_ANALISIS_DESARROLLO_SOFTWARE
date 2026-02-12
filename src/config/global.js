@@ -141,13 +141,6 @@ export default {
         'https://www.ibm.com/docs/es/rtw/9.1.0?topic=SSBLQQ_9.1.0/com.ibm.rational.test.ft.doc/topics/Getting_Started_With_Ivory.html',
     },
     {
-      tema: '1.1.5 Pruebas de Rendimiento',
-      referencia: 'IBM (2021).Pruebas de rendimiento.',
-      tipo: 'Documento',
-      link:
-        'https://www.ibm.com/docs/es/rtw/9.0.0?topic=phases-performance-testing',
-    },
-    {
       tema: '1.2 Agile Testing',
       referencia: 'QA, H.-O. (04 de 09 de 2020). Cuadrantes de prueba.',
       tipo: 'Video',
